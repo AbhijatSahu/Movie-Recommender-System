@@ -47,7 +47,7 @@ Copy
 Edit
 streamlit run app.py
 ```
-### 📦 File Structure
+## 📦 File Structure
 ```bash
 Copy
 Edit
@@ -61,7 +61,8 @@ Movie-Recommender-System/
 ├── README.md               # Project documentation
 └── screenshots/            # Folder for UI demo images (optional)
 ```
-### ⚙️ Dependencies
+---
+## ⚙️ Dependencies
 Below are the main libraries used in this project (also included in requirements.txt):
 
 plaintext
@@ -72,7 +73,8 @@ pandas
 scikit-learn
 rapidfuzz
 numpy
-📖 Usage
+---
+## 📖 Usage
 Open the app in your browser using the Streamlit command above.
 
 Select a movie from the dropdown list on the home page.
@@ -83,7 +85,7 @@ See the top 5 recommended movies displayed horizontally.
 
 Navigate to the "Movies" page to browse all movies and get recommendations by clicking on any movie.
 
-🧑‍💻 Development Notes
+## 🧑‍💻 Development Notes
 similarity.ipynb contains the code for building the similarity matrix based on movie features.
 
 The pickled files (movie.pkl and similar_movies.pkl) store your preprocessed datasets and similarity scores.
