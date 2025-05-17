@@ -23,10 +23,10 @@ An intelligent and interactive Movie Recommender System built using **Streamlit*
 ```bash
 git clone https://github.com/AbhijatSahu/Movie-Recommender-System.git
 cd Movie-Recommender-System```
-
 ```
 ### 2. Set up a virtual environment (optional but recommended)
-bash
+
+```bash
 Copy
 Edit
 python -m venv venv
@@ -36,17 +36,19 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 ### 3. Install dependencies
-bash
+```bash
 Copy
 Edit
 pip install -r requirements.txt
+```
 ### 4. Run the Streamlit app
-bash
+```bash
 Copy
 Edit
 streamlit run app.py
+```
 ### 📦 File Structure
-bash
+```bash
 Copy
 Edit
 Movie-Recommender-System/
@@ -58,6 +60,7 @@ Movie-Recommender-System/
 ├── requirements.txt        # Required Python libraries
 ├── README.md               # Project documentation
 └── screenshots/            # Folder for UI demo images (optional)
+```
 ### ⚙️ Dependencies
 Below are the main libraries used in this project (also included in requirements.txt):
 
