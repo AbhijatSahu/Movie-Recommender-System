@@ -47,6 +47,9 @@ Copy
 Edit
 streamlit run app.py
 ```
+
+---
+
 ## 📦 File Structure
 ```bash
 Copy
@@ -63,6 +66,7 @@ Movie-Recommender-System/
 ```
 
 ---
+
 ## ⚙️ Dependencies
 Below are the main libraries used in this project (also included in requirements.txt):
 
@@ -76,6 +80,7 @@ rapidfuzz
 numpy
 
 ---
+
 ## 📖 Usage
 Open the app in your browser using the Streamlit command above.
 
@@ -88,6 +93,7 @@ See the top 5 recommended movies displayed horizontally.
 Navigate to the "Movies" page to browse all movies and get recommendations by clicking on any movie.
 
 ---
+
 ## 🧑‍💻 Development Notes
 similarity.ipynb contains the code for building the similarity matrix based on movie features.
 
