@@ -23,27 +23,63 @@ An intelligent and interactive Movie Recommender System built using **Streamlit*
 ```bash
 git clone https://github.com/AbhijatSahu/Movie-Recommender-System.git
 cd Movie-Recommender-System
-
-### 2. Set up a virtual environment (optional but recommended)
+2. Set up a virtual environment (optional but recommended)
+bash
+Copy
+Edit
 python -m venv venv
 # For Linux/macOS
 source venv/bin/activate
 # For Windows
 venv\Scripts\activate
-
-### 3. Install dependencies
+3. Install dependencies
+bash
+Copy
+Edit
 pip install -r requirements.txt
-
-### ▶️ Running the App
+4. Run the Streamlit app
+bash
+Copy
+Edit
 streamlit run app.py
-
-### 📦 File Structure
+📦 File Structure
+bash
+Copy
+Edit
 Movie-Recommender-System/
 │
 ├── app.py                  # Main Streamlit app
-├── movie.pkl               # Movie dataset with names, posters, ratings
-├── similar_movies.pkl      # Precomputed similarity matrix
-├── similarity.ipynb        # Notebook to compute similarity matrix
+├── movie.pkl               # Movie dataset with names, posters, ratings, taglines, descriptions
+├── similar_movies.pkl      # Precomputed similarity matrix for recommendations
+├── similarity.ipynb        # Jupyter notebook to compute similarity matrix
 ├── requirements.txt        # Required Python libraries
 ├── README.md               # Project documentation
-└── screenshots/            # Folder for UI demo images
+└── screenshots/            # Folder for UI demo images (optional)
+⚙️ Dependencies
+Below are the main libraries used in this project (also included in requirements.txt):
+
+plaintext
+Copy
+Edit
+streamlit
+pandas
+scikit-learn
+rapidfuzz
+numpy
+📖 Usage
+Open the app in your browser using the Streamlit command above.
+
+Select a movie from the dropdown list on the home page.
+
+View the movie details (poster, tagline, rating, description).
+
+See the top 5 recommended movies displayed horizontally.
+
+Navigate to the "Movies" page to browse all movies and get recommendations by clicking on any movie.
+
+🧑‍💻 Development Notes
+similarity.ipynb contains the code for building the similarity matrix based on movie features.
+
+The pickled files (movie.pkl and similar_movies.pkl) store your preprocessed datasets and similarity scores.
+
+Ensure your pickle files are in the same directory as app.py.
